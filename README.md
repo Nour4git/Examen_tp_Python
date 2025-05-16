@@ -112,10 +112,5 @@ Générer un court résumé d’un film en envoyant l’ID du film :
  actor_list = ", ".join(actor.actor_name for actor in movie.actors)
  -> This creates a human-readable list:
     Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Tom Hardy
-💡 Features
-View a random movie and its actors.
 
-Generate a smart movie summary using Langchain + Groq.
 
-🧪 Technologies
-FastAPI
